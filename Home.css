@@ -1,6 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(207, 207, 207);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.context {
+    align-items: center !important;
+}
 /* LOGO */
 .navbar-brand {
-    height: 60px ;
+    height: 40px ;
     padding: 0px;
     width: auto ;
     display: flex ;
@@ -10,35 +21,27 @@
 
 /* NAVBAR */
 .navbar {
-    background: linear-gradient(to right, #223767, #4A6DAE, #49C2FE) !important;
+    background: #587042!important;
     width: 100%;
-    justify-content: center;
+    margin: 0 auto !;
     align-items: center;
 }
-
-.navbar-nav {
-  margin: 0 auto !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
-
 
 .navbar.hidden {
     transform: translateY(-100%);
 }
 
 nav div ul li a {
-    justify-content: center;
-    align-items: center;
     transition: 0.10s;
     display: flex;
     margin-right: 20px ;
     border-radius: 50px ;
+    color: #000000 !important;
 }
 
 nav div ul li a:hover {
-    color: #ffffff ;
-    background: #00000072 ;
+    background: #ffffff72 ;
     border-radius: 10px ;
 }
+
+/* BODY */
