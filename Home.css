@@ -1,0 +1,44 @@
+/* LOGO */
+.navbar-brand {
+    height: 60px ;
+    padding: 0px;
+    width: auto ;
+    display: flex ;
+    object-fit: contain ;
+    vertical-align: middle ;
+}
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(to right, #223767, #4A6DAE, #49C2FE) !important;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+
+.navbar.hidden {
+    transform: translateY(-100%);
+}
+
+nav div ul li a {
+    justify-content: center;
+    align-items: center;
+    transition: 0.10s;
+    display: flex;
+    margin-right: 20px ;
+    border-radius: 50px ;
+}
+
+nav div ul li a:hover {
+    color: #ffffff ;
+    background: #00000072 ;
+    border-radius: 10px ;
+}
